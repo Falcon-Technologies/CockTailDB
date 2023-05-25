@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="Theme.SofitTask" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="bottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="itemIconTint">@color/custom_bottom_navigation</item>
+        <item name="itemTextColor">@color/custom_bottom_navigation</item>
+        <item name="android:background">@color/white</item>
+        <item name="menu">@menu/bottom_nav_menu</item>
+        <item name="itemBackground">@color/bg_bottom_navigation</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationText</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavigationText</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+
+    <style name="BottomNavigationText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10sp</item>
+    </style>
+</resources>

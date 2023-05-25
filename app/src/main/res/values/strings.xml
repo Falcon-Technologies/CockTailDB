@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sofit Task</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="alcohol">Alcohol</string>
+    <string name="hint_search">Search</string>
+    <string name="no_favourites">No favourites saved yet.</string>
+    <string name="no_item_found">No Item Found</string>
+    <string name="drink_recipes">Drink Recipes</string>
+    <string name="favorite_recipes">Favorite Recipes</string>
+    <string name="by_first_alphabet">By First Alphabet</string>
+    <string name="by_name">By Name</string>
+</resources>
